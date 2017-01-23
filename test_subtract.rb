@@ -13,4 +13,8 @@ class TestMMFunctions < MiniTest::Test
 	def test_123_minus_13_equals_110
 		assert_equal(110, subtract(123,13))
 	end
+
+	def test_10_minus_neg2_equals_12
+		assert_equal(12, subtract(10,-2))
+	end
 end
