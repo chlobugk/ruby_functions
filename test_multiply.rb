@@ -9,4 +9,8 @@ class TestMMFunctions < MiniTest::Test
 	def test_5_times_4_equals_20
 		assert_equal(20, multiply(5,4))
 	end
+
+	def test_neg10_times_5_equals_neg50
+		assert_equal(-50, multiply(-10,5))
+	end
 end
