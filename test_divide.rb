@@ -17,4 +17,8 @@ class TestMMFunctions < MiniTest::Test
 	def test_neg100_divide_neg4_equals_25
 		assert_equal(25, divide(-100,-4))
 	end
+
+	def test_5_divide_0_equals_error
+		assert_equal('silly_head', divide(5,0))
+	end
 end
